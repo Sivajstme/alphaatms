@@ -7,7 +7,7 @@ const sizes = ["btn--medium","btn--large"];
 
 
 
-export const Button = ({children,type,onClick,buttonSize,buttonStyle}) => {
+ const Button = ({children,type,onClick,buttonSize,buttonStyle}) => {
     
     const checkButtonStyle = style.includes(buttonStyle) ? buttonStyle : style[0];
     const checkButtonSize = sizes.includes(buttonSize) ? buttonSize : style[0];
@@ -27,3 +27,5 @@ export const Button = ({children,type,onClick,buttonSize,buttonStyle}) => {
 
     );
 };
+
+export default Button;
