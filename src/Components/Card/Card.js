@@ -1,6 +1,5 @@
 import React from "react";
 import CardItem  from "./CardsItem";
-import imag from "../../assets/images/img-9.jpg";
 import "./Card.css";
 import {CardData} from "./CardData";
 
